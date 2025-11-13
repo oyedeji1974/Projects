@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verification</title>
+</head>
+<style>
+    #submit-button{
+        width: 250px;
+        height: 40px;
+        background-color: rgb(242, 104, 127);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 15px;
+        box-shadow: #000;
+    }
+    .code-inputs input{
+        border: none;
+        border-bottom: 2px dotted #000;
+        width: 50px;
+        margin-right: 0px;
+        gap: -10000px;
+        margin: 0 5px;
+    }
+    .code-inputs{
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+        margin-right: 500px;
+    }
+</style>
+<body style="margin-left: 500px; margin-top: 150px;">
+    <h3 style="font-family: sans-serif; margin-left: 70px; font-size: 25px;">Verification</h3>
+    <p style="margin-left: 70px; font-family: sans-serif; font-weight: 0px;">Enter Six digit Pin</p>
+    <div class="code-inputs">
+        <input type="text" maxlength="1">
+        <input type="text" maxlength="1">
+        <input type="text" maxlength="1">
+        <input type="text" maxlength="1">
+        <input type="text" maxlength="1">
+        <input type="text" maxlength="1">
+    </div>
+
+    <h4 style="font-family: sans-serif; margin-left: 20px;">Didn,t recieve a Code <span><a href="">Resend</a></span></h4>
+    <button id="submit-button" style="margin-left: 20px;">Submit</button>
+    <h4 style="font-family: sans-serif; margin-left: 20px;">Dont have an Account <span><a href="index.html">SignUp</a></span></h4>
+</body>
+</html>
